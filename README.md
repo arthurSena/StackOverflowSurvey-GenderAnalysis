@@ -53,3 +53,20 @@ Install all required libraries with:
 
 ```bash
 pip install pandas numpy matplotlib plotly scipy mlxtend
+```
+
+## 🚀 How to Use
+
+Place the Stack Overflow .zip files in the data/ folder.
+
+Run the notebooks in the following order:
+
+1) generate_data.ipynb
+
+2) hypothesis_test_salary_diff_by_gender_and_dev_type.ipynb
+
+3) regression_salary_analysis.ipynb
+
+4) running_arl.ipynb
+
+Each notebook is standalone but relies on the processed dataset generated in step 1.
